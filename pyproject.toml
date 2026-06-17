@@ -1,0 +1,13 @@
+[tool.pytest.ini_options]
+addopts = "-v"
+tespaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataops-unit-tests"
+version = "0.1.0"
+description = "Proyecto DataOps con pruebas unitarias"
+dependencies = ["pytest>=7.4.0"]
